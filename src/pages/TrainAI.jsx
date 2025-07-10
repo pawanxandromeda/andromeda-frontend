@@ -230,7 +230,7 @@ const handleTraining = async (e) => {
     };
 
     // Step 1: Submit training data
-    const submitResponse = await fetch('https://localhost:7190/api/BusinessTraining/submit', {
+    const submitResponse = await fetch('http://16.170.221.131/api/BusinessTraining/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
