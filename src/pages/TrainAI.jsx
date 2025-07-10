@@ -243,7 +243,7 @@ const handleTraining = async (e) => {
     }
 
     // Step 2: Trigger training and embedding
-    const trainResponse = await fetch('https://localhost:7190/api/BusinessTraining/train', {
+    const trainResponse = await fetch('http://16.170.173.244:5000/api/BusinessTraining/train', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -289,7 +289,7 @@ const handleTraining = async (e) => {
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1 }
-  };
+  };      
 
   const progressVariants = {
     initial: { width: 0 },

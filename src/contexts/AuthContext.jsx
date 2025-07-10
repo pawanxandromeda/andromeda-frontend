@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
   const signUp = async (data) => {
     try {
-      const response = await axios.post("https://localhost:7190/api/auth/register", data, {
+      const response = await axios.post("http://16.170.173.244:5000/api/auth/register", data, {
         headers: { "Content-Type": "application/json" },
       });
 

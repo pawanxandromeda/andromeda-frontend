@@ -32,7 +32,7 @@ function Feedback() {
         FeedbackText: feedback,
       };
 
-      const response = await fetch('https://localhost:7190/api/feedback/submit', {
+      const response = await fetch('http://16.170.173.244:5000/api/feedback/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
