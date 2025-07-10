@@ -191,7 +191,7 @@ const PricingTier = ({ tier, index, selectedCurrency }) => {
     
       try {
         // Step 1: Create order from backend
-        const createOrderResponse = await fetch('http://16.170.173.244:5000/api/payment/create', {
+        const createOrderResponse = await fetch('http://16.170.221.131/api/payment/create', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

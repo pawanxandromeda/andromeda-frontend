@@ -243,7 +243,7 @@ const handleTraining = async (e) => {
     }
 
     // Step 2: Trigger training and embedding
-    const trainResponse = await fetch('http://16.170.173.244:5000/api/BusinessTraining/train', {
+    const trainResponse = await fetch('http://16.170.221.131/api/BusinessTraining/train', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
