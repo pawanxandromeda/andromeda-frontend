@@ -32,7 +32,7 @@ function Feedback() {
         FeedbackText: feedback,
       };
 
-      const response = await fetch('http://16.170.221.131/api/feedback/submit', {
+      const response = await fetch('https://api.teenytechtrek.com/api/feedback/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

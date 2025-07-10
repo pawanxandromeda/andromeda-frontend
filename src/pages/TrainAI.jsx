@@ -230,7 +230,7 @@ const handleTraining = async (e) => {
     };
 
     // Step 1: Submit training data
-    const submitResponse = await fetch('http://16.170.221.131/api/BusinessTraining/submit', {
+    const submitResponse = await fetch('https://api.teenytechtrek.com/api/BusinessTraining/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -243,7 +243,7 @@ const handleTraining = async (e) => {
     }
 
     // Step 2: Trigger training and embedding
-    const trainResponse = await fetch('http://16.170.221.131/api/BusinessTraining/train', {
+    const trainResponse = await fetch('https://api.teenytechtrek.com/api/BusinessTraining/train', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
