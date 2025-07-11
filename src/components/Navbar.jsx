@@ -33,7 +33,7 @@ const Navbar = ({ isCollapsed, setIsCollapsed }) => {
     { to: "/business-setup", icon: Briefcase, label: "Business Setup" },
     { to: "/train-ai", icon: BicepsFlexed, label: "Train Bot" },
     { to: "/pricing", icon: CircleDollarSignIcon, label: "Plans/Subscription" },
-      { to: "/settings", icon: LucideSettings, label: "Settings" },
+     // { to: "/settings", icon: LucideSettings, label: "Settings" },
     { to: "/feedback", icon: LucideBadgeHelp, label: "Feedback & Support" },
   
   ];

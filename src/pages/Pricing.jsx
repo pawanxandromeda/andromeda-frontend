@@ -230,7 +230,7 @@ const PricingTier = ({ tier, index, selectedCurrency }) => {
     
             try {
               // Step 3: Call backend to verify payment
-              const verifyResponse = await fetch('https://localhost:7190/api/payment/verify', {
+              const verifyResponse = await fetch('https://api.teenytechtrek.com/api/payment/verify', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json'

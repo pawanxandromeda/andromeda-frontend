@@ -60,7 +60,7 @@ export const AuthProvider = ({ children }) => {
 
   const signIn = async (data) => {
     try {
-      const response = await axios.post("https://localhost:7190/api/auth/login", data, {
+      const response = await axios.post("https://api.teenytechtrek.com/api/auth/login", data, {
         headers: { "Content-Type": "application/json" },
       });
   
